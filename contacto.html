@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/contacto.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - SnackFit</title>
+</head>
+<body>
+    <header>
+        <h2>Snack</h2>
+        <ul>
+            <li><a class="inicio" href="/index.html">Inicio</a></li>
+            <li><a class="nosotros" href="/nosotros.html">Nosotros</a></li>
+            <li><a class="contacto" href="/contacto.html">Contacto</a></li>
+        </ul>
+    </header>
+    <main>
+        <h2 class="tituloContacto">Contáctanos</h2>
+        <section class="formularioContacto">
+            <form action="#" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+    <div id="fondoDesenfocado"></div>
+    <script src="/contacto.js"></script>
+</body>
+</html>
